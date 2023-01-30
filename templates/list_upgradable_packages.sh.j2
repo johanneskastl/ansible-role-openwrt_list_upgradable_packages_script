@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#
+# {{ ansible_managed }}
+#
+
+opkg update > /dev/null
+opkg list-upgradable
