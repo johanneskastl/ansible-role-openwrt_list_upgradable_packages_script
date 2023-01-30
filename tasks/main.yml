@@ -1,0 +1,10 @@
+---
+# openwrt_list_upgradable_packages_script/tasks/main.yml
+
+- name: 'Create /usr/bin/list_upgradable_packages.sh'
+  ansible.builtin.template:
+    src: 'list_upgradable_packages.sh.j2'
+    dest: '/usr/bin/list_upgradable_packages.sh'
+    owner: 'root'
+    group: 'root'
+    mode: '0744'
