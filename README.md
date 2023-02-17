@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-        - role: 'johanneskastl.XXX'
+        - role: 'johanneskastl.openwrt_list_upgradable_packages_script'
 
 License
 -------
